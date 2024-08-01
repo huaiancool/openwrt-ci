@@ -40,10 +40,14 @@ git_sparse_clone main https://github.com/Lienol/openwrt-package luci-app-filebro
 git_sparse_clone openwrt-18.06 https://github.com/immortalwrt/luci applications/luci-app-eqos
 # git_sparse_clone master https://github.com/syb999/openwrt-19.07.1 package/network/services/msd_lite
 
-# 我新增的
+# 我填写的
 git_sparse_clone master https://github.com/kiddin9/openwrt-packages linkease
 git_sparse_clone master https://github.com/kiddin9/openwrt-packages luci-app-linkease
-
+git_sparse_clone master https://github.com/kiddin9/openwrt-packages linkmount
+git_sparse_clone master https://github.com/kiddin9/openwrt-packages ffmpeg-remux
+git_sparse_clone master https://github.com/kiddin9/openwrt-packages luci-app-bypass
+git clone --depth=1 https://github.com/shadowsocks/openwrt-shadowsocks package/openwrt-shadowsocks
+git clone --depth=1 https://github.com/shadowsocks/luci-app-shadowsocks package/luci-app-shadowsocks
 
 # 科学上网插件
 git clone --depth=1 -b main https://github.com/fw876/helloworld package/luci-app-ssr-plus
